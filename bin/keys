@@ -1,4 +1,4 @@
-require_relative "../lib/keys.rb"
+#require_relative "../lib/keys.rb"
 
 #groceries = {
 # dairy: ["milk", "yogurt", "cheese"],
