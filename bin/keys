@@ -7,7 +7,7 @@ groceries = {
   grains: ["rice", "pasta"]
 }
 
- groceries.keys
+
 
 def get_the_keys(groceries)
   groceries.keys
