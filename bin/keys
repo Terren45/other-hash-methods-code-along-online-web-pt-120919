@@ -1,14 +1,10 @@
-#require_relative "../lib/keys.rb"
-require 'pry'
-#groceries = {
-# dairy: ["milk", "yogurt", "cheese"],
- # vegetable: ["carrots", "broccoli", "cucumbers"],
-  #meat: ["chicken", "steak", "salmon"],
-  #grains: ["rice", "pasta"]
-#}
+require_relative "../lib/keys.rb"
 
-#puts get_the_keys(groceries)
+groceries = {
+ dairy: ["milk", "yogurt", "cheese"],
+  vegetable: ["carrots", "broccoli", "cucumbers"],
+  meat: ["chicken", "steak", "salmon"],
+  grains: ["rice", "pasta"]
+}
 
-def get_the_keys(groceries)
-  groceries.keys
-end
+puts get_the_keys(groceries)
